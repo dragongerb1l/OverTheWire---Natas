@@ -1,0 +1,28 @@
+Natas Level 02 --> 03
+
+Goal/Hint 
+
+There is nothing on this page
+
+----------------------------------------------------------------------------------------------------------------------------
+
+> Again we have the same prompt, going to keep my eyes on URL more often now but not expecting the same thing from last lvl
+
+> Inspected the page, didn't find anything really besides "No more information leaks!! Not even Google will find it this time"
+
+> I'm guessing google has something to do with getting this answer
+
+> Going to google informayion leak tools relating to google
+
+> Ok so after much googling I found that I need to use robots.txt at the end of my URL
+  A robots.txt file tells search engine crawlers which URLs the crawler can access on your site. 
+  This is used mainly to avoid overloading your site with requests; it is not a mechanism for keeping a web page out of Google. 
+  To keep a web page out of Google, block indexing with noindex or password-protect the page.
+
+> Adding robots.txt at the end of the URL brought me to a txt page with User-agent:* and Disallow: /s3cr3t/
+
+> Going to try to add that at the end of the URL now 
+
+> Yup that seemed to bring me to another user.txt file and in it had the password 
+
+> Password for Natas4 = QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
