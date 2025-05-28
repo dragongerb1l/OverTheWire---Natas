@@ -1,0 +1,16 @@
+Natas Level 03 --> 04
+
+Goal/Hint 
+
+Access disallowed. You are visiting from "" while authorized users should come only from "http://natas5.natas.labs.overthewire.org/"
+
+Refresh Page Option
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+> Of course the first thing I do is hit the refresh page which gave me:
+  Access disallowed. You are visiting from "http://natas4.natas.labs.overthewire.org/" while authorized users should come only from "http://natas5.natas.labs.overthewire.org/"
+
+> So it looks like I need to be natas5 in order to view the page due to permissions
+
+> 
