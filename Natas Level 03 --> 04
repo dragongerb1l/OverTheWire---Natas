@@ -13,4 +13,25 @@ Refresh Page Option
 
 > So it looks like I need to be natas5 in order to view the page due to permissions
 
-> 
+> So was stumped but found out that I needed to be using Blurp Suite. 
+
+> Downloaded Blurp Suite and downloaded proxy on an extension and inputted the requirements for blurpsuite
+
+> With the proxy on we refresh the natas page and then head over to Blurp Suite to see if we caught the packet through there
+
+> We did and I open to inspect what we have captured
+
+> Nothing looks too different packet wise, we have new tools to use but not exectly sure how to use them
+
+> Learned through some googling that if we take the packet we have and add a Referer leading to http://natas5.natas.labs.overthewire.org/
+  it should bypass and get permission as Natas4
+
+> Ok so from target proxy we sent the packet to a repeater where we then added the Referer with the address acting as natas5
+
+> After the addation I then ran the new packet and it returned what looked like to be the last packet but at the bottom
+  it contained the password 
+
+> Password for Natas5 = 0n35PkggAPm2zbEpOU802c0x0Msn1ToK
+
+> This was more trouble than ut probably should have, but I didn't understand I needed Blurp Suite and how to use it tools,
+  but if anything I glad to have gained more knowledge and hope to get more hands on with it in the future
