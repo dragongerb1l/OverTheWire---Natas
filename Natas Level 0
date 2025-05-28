@@ -12,5 +12,14 @@ Username: natas0
 Password: natas0
 URL:      http://natas0.natas.labs.overthewire.org
 
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Screen
+
+You can find the password for the next level on this page.
+
+> So looking at the above as the only clue we have, my first instinct is to inspect the page as we are dealing with server realted problems with this wargame
+
+> Upon inspection we can clearly see the password at the bottom of the sourcecode
+
+> Password for Natas1 = 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
