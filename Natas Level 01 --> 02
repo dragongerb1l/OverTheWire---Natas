@@ -1,1 +1,24 @@
+Natas Level 01 --> 02
 
+Goal/Hint
+
+There is nothing on this page 
+
+------------------------------------------------------------------------------------------------------------
+
+> Well not much to go on with that
+
+> Going to inspect the page and look for clues
+
+> Noticed that there is an IMG while inspecting the site
+
+> Opened the IMG and it is just one pixel 
+
+> This took me awhile to notice but between the main page and IMG page the URL is different
+  The IMG page has /files/pixel.png rather than not on the main page
+
+> I'm going to just try /files at the end of the URL to see if there are more files to open
+
+> I was right there is a user.txt file that has multiple usernames and passwords including that for Natas3
+
+> Password for Natas3 = 3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH
