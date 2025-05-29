@@ -1,0 +1,53 @@
+Natas Level 08 --> 09
+
+Goal/Hint
+
+Find Words Containing: search bar 
+
+Output: 
+
+View Sourcecode 
+
+---------------------------------------------------------------------------------------------------------
+
+> Again the first thing I'll do is view the sourcecode 
+
+> There I see some interesting things relating to how the search works 
+
+# Sourcecode
+
+$key = "";
+
+if(array_key_exists("needle", $_REQUEST)) {
+    $key = $_REQUEST["needle"];
+}
+
+if($key != "") {
+    passthru("grep -i $key dictionary.txt");
+}
+?>
+
+> The dictonary.txt looks interesting to me, might see if it leads anywhere in the URL 
+
+> So by doing that we just got a very long list of words essentially like a dictonary, who would have guessed
+
+> Ok so from here it took me awhile to figure out needed to google some things and understand it
+
+> Looking at the code I could understand what grep was doing with the dictonary.txt but I wasn't too sure on the passthru command
+
+> Learning through google passthu command has a vulnerability to code/shell injection 
+
+> So if I were to add a ";" before the text im seaching its besically running a command 
+
+> I'm going to try a simple command ";ls -alps" to see if I get any results 
+
+> I did I got 
+  452 -rw-r----- 1 natas9 natas9 460878 Apr 10 14:18 dictionary.txt
+
+> So guessing if it acts like a directory I can basically go to /etc/natas_webpass/ and find the password for natas10
+
+> I'm going to plug in cat /etc/natas_webpass/natas10 and add a ; in the front
+
+> Worked like a charm got the password for natas10
+
+> Password for Natas10 = t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu
