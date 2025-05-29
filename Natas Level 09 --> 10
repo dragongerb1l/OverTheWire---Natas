@@ -38,6 +38,8 @@ if($key != "") {
 
 > Ok so my first thought is maybe using numbers they aren't blocked and obviously words don't have numbers in them 
 
-> 
+> Ok that worked just inputted "1 cat /etc/natas_webpass/natas11" and got the password
 
-> 
+> I'm guessing that the first character could not be one of the special charaters and after that the argument wasn't in effect
+
+> Password for Natas11 = UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
