@@ -30,6 +30,8 @@ include "includes/secret.inc";
 
 > We've seen soemthing like this before so I'm going to start there, paste that at the end of the URL
 
-> Yup we got the password just like that seems too easy
+> Yup we got the secret password just like that seems too easy
 
-> Password for Natas7 = FOEIUWGHFEEUHOFUOIU
+> We now input the secret we got into the query and we get the password for the next level
+
+> Password for Natas7 = bmg8SvU1LizuWjx3y7xkNERkHxGre0GS
