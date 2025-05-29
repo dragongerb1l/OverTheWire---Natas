@@ -1,4 +1,4 @@
-Natas Level 5 --> 6
+Natas Level 05 --> 06
 
 Goal/Hint
 
@@ -26,8 +26,10 @@ include "includes/secret.inc";
     }
 ?>
 
-> So first thing that comes to my mind is the /secret.inc 
+> So first thing that comes to my mind is the includes/secret.inc 
 
-> We've seen soemthing like this before so I'm going to start there
+> We've seen soemthing like this before so I'm going to start there, paste that at the end of the URL
 
->
+> Yup we got the password just like that seems too easy
+
+> Password for Natas7 = FOEIUWGHFEEUHOFUOIU
