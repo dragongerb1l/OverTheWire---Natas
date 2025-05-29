@@ -1,0 +1,43 @@
+Natas 09 --> 10
+
+Goal/Hint 
+
+For security reasons, we now filter on certain characters
+
+Find words containing:
+Output:
+Input contains an illegal character!
+
+View sourcecode
+
+-----------------------------------------------------------------------------------------------------------
+
+> So from first look it seems like I will be unable to do the ; trick again 
+
+> Taking a look into the sourcecode
+
+# Sourcecode 
+
+<?
+$key = "";
+
+if(array_key_exists("needle", $_REQUEST)) {
+    $key = $_REQUEST["needle"];
+}
+
+if($key != "") {
+    if(preg_match('/[;|&]/',$key)) {
+        print "Input contains an illegal character!";
+    } else {
+        passthru("grep -i $key dictionary.txt");
+    }
+}
+?>
+
+> Ya so it seems like I'm limitied to not use /, ;, &, \
+
+> Ok so my first thought is maybe using numbers they aren't blocked and obviously words don't have numbers in them 
+
+> 
+
+> 
