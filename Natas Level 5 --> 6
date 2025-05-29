@@ -1,0 +1,33 @@
+Natas Level 5 --> 6
+
+Goal/Hint
+
+Input secret: *search tool -- submit query
+
+View Sourcecode 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+> Ok so we can type and search things in this level, not exectly sure what but we can view the sourcecode so lets start there
+
+> Ok so I can see some code in here that different than before and relating to "secret"
+
+# Post code below
+<?
+
+include "includes/secret.inc";
+
+    if(array_key_exists("submit", $_POST)) {
+        if($secret == $_POST['secret']) {
+        print "Access granted. The password for natas7 is <censored>";
+    } else {
+        print "Wrong secret";
+    }
+    }
+?>
+
+> So first thing that comes to my mind is the /secret.inc 
+
+> We've seen soemthing like this before so I'm going to start there
+
+>
