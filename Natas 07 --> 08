@@ -1,0 +1,23 @@
+Natas 07 --> 08
+
+Goal/Hint
+
+Home & About Weblinks 
+
+------------------------------------------------------------------------------------------------
+
+> So we have two clickable links here and of course I'm going to hit both of them
+
+> When clicking the home page it returns that "this is the front page"
+
+> End of that URL becomes index.php?page=home
+
+> When clicking on the About page it returns "this is the about page"
+
+> End of URL becomes index.php?page=about
+
+? I am going to check the sourcecode and there I see <!-- hint: password for webuser natas8 is in /etc/natas_webpass/natas8 -->
+
+> Again the path is what is telling me what I should try next so that I will do 
+
+> 
