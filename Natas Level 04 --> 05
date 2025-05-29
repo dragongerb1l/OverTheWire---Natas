@@ -6,3 +6,17 @@ Access disallowed. You are not logged in
 
 -----------------------------------------------------------------------------------------------------------
 
+> First look at it and it seems pretty simple in the fact that the site is not recognizing that we are indeed logged in. 
+
+> Going to keep using Blurp Suite and inspect the page
+
+> So upon inspection of the proxy packet I can see that there is a line that is "logged in = 0"
+
+> So just thinking here but usually something that is either a yes or no in code is basically binary, 
+  so train of thought is just changing the 0 to a 1
+
+> Send to repeater to make the change than run it again
+
+> Yup just like that access has been granted and we got the password for Natas6
+
+> Password for Natas6 = 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
