@@ -1,0 +1,54 @@
+Natas Level 07 --> 08
+
+Goal/Hint
+
+Input secret: text search - submit query
+
+View Sourcecode
+
+------------------------------------------------------------------------------------------------------------
+
+> Ok so again we have a search tool and we can view the sourcecode
+
+> Going to view sourcecode again first to see if anything pops put to me
+
+> OK got new code here and it looks like they give us a secret code that has been encrypted
+
+# Sourcecode 
+
+$encodedSecret = "3d3d516343746d4d6d6c315669563362";
+
+function encodeSecret($secret) {
+    return bin2hex(strrev(base64_encode($secret)));
+}
+
+if(array_key_exists("submit", $_POST)) {
+    if(encodeSecret($_POST['secret']) == $encodedSecret) {
+    print "Access granted. The password for natas9 is <censored>";
+    } else {
+    print "Wrong secret";
+    }
+
+> So looking at the code I can see its been encrypted bin2hex then strrev, then base64
+
+> So I'm guessing I need to work backwards to decode it
+
+> I was wrong after trying base64 decode first it made no sense when trying to apply the other decoders
+
+> I found to use cyberchef as a good decoder
+
+> Didn't know what strrev was so googled it and it came back as a tool that reverses a string 
+
+> So we first decode the secret from hex since we can see it was binary 2 hex
+
+> ==QcCtmMml1ViV3b is the binary that we now need to reverse back
+
+> b3ViV1lmMmtCcQ== is the reverse and now we just need to base64 decode and we should have the secret
+
+> oubWYf2kBq is what we get for the final return 
+
+> Plug that into the search query
+
+>Returns the password 
+
+> Password for Natas9 = ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
